@@ -1,0 +1,10 @@
+[project]
+name = "trade"
+version = "0.1.0"
+description = "Test work API"
+readme = "README.md"
+requires-python = ">=3.13.2"
+dependencies = [
+    "loguru>=0.7.3",
+    "requests>=2.32.5",
+]

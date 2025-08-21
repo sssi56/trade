@@ -1,0 +1,8 @@
+{
+    "venvPath": ".",
+    "venv": ".venv",
+    "environment": {
+        "type": "venv",
+        "venvPath": ".venv"
+    },
+}
