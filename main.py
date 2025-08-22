@@ -40,10 +40,10 @@ try:
         }
 
         # Сохраняем результат в JSON-файл
-        with open('weather_data.json', 'w', encoding='utf-8') as json_file:
+        with open('data.json', 'w', encoding='utf-8') as json_file:
             json.dump(filtered_data, json_file, ensure_ascii=False, indent=4, sort_keys=True)
             
-        logger.info("Данные успешно сохранены в файл weather_data.json")
+        logger.info("Данные успешно сохранены в файл data.json")
     else:
         logger.error(f"Ошибка при запросе: {response.status_code}")
         
